@@ -8,6 +8,8 @@ const DEFAULT_PAGE_SIZE = 20;
 // Initialize database on first request
 let initialized = false;
 
+
+// Testkommentar
 function getDemoPage(page: number, pageSize: number): PaginatedIdems {
   const start = (page - 1) * pageSize;
   const items = demoIdems.slice(start, start + pageSize);
